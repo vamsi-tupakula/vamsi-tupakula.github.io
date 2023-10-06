@@ -2,7 +2,7 @@ import React from "react";
 
 function SidePanel() {
   return (
-    <div className="side__panel flex gap-5 px-4 rounded-lg items-center mx-4">
+    <div className="side__panel flex gap-5 px-4 rounded-lg items-center justify-center mx-4 my-3">
       <a href="https://twitter.com/imVamsi_Krishna" target="_blank">
         <img
           src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png"
