@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -17,4 +18,8 @@ body {
 
 .blackops {
   font-family: "Black Ops One", cursive;
+}
+
+.sofadione-font {
+  font-family: "Sofadi One", cursive;
 }

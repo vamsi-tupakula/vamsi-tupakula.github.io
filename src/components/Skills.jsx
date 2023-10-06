@@ -44,7 +44,7 @@ function Skills() {
     },
   ];
   return (
-    <section className="skills flex flex-col gap-y-10 justify-center text-center h-screen text-white">
+    <section className="skills flex flex-col gap-y-10 justify-center text-center min-h-screen text-white">
       <h1 className="blackops text-5xl font-bold sm:text-8xl">SKILLS</h1>
       <div className="grid grid-cols-2 gap-y-16 sm:grid-cols-5">
         {images.map((img, index) => {
