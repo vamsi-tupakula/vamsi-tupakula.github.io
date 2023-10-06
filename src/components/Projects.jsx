@@ -53,7 +53,7 @@ function Projects() {
   return (
     <section className="flex flex-col gap-2 justify-center text-center min-h-screen text-white py-3">
       <h1 className="blackops text-5xl font-bold sm:text-8xl">PROJECTS</h1>
-      <div className="cards px-4 my-4 grid grid-cols-2 gap-6 justify-items-center">
+      <div className="cards px-4 my-4 grid grid-cols-1 lg:grid-cols-2 gap-6 justify-items-center">
         {projectDetails.map((project, index) => {
           return <Card details={project} key={index} />;
         })}
